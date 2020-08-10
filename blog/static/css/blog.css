@@ -3,12 +3,13 @@
      font-family: 'Arial Black';
 }
 
+
  h1, h2{
-     color: #ef7412;
+     color: #f87309;
  }
 
  .page-header{
-     background-color: #ef7412;
+     background-color:  #f87309;
      margin-top: 0;
      padding: 20px 20px 20px 60px;
  }
