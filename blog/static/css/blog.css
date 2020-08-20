@@ -1,15 +1,23 @@
  h1 a, h2 a {
-    color: blueviolet;
+    color:#369683;
      font-family: 'Arial Black';
 }
 
 
  h1, h2{
-     color: #f87309;
+     color: #369683;
+ }
+ body{
+      background-image: url("uob.jpg");
+     background-repeat: no-repeat;
+     background-position: right;
+
+
+
  }
 
  .page-header{
-     background-color:  #f87309;
+     background-color:  #41B3A3;
      margin-top: 0;
      padding: 20px 20px 20px 60px;
  }
@@ -26,7 +34,7 @@
  }
 
  h1, h2, h3, h4 {
-     font-family: 'Lobster', cursive;
+     font-family: 'Arial', cursive;
  }
 
 
@@ -47,10 +55,21 @@
     float: right;
     font-size: 26pt;
     margin-right: 20px;
+    margin-top: 25px;
+}
+.icon{
+    color: #ffffff;
+    float: right;
+    font-size: 15pt;
+    margin-top: 50pt;
+    text-align:center;
 }
 
 .post {
     margin-bottom: 70px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-size: 16px;
 }
 
 .post h2 a, .post h2 a:visited {
