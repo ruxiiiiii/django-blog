@@ -11,18 +11,17 @@
 
     <body>
 
-    
             <div class="page-header">
                 {% if user.is_authenticated %}
 
                     <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
-                    <a href="{% url 'post_new' %}" class ="icon" >&nbsp Add Post</a>
+                   <a href="{% url 'post_new' %}" class ="icon" >Add Post</a>
 
                     <a href="{% url 'post_draft_list' %}" class="top-menu"><span class="glyphicon glyphicon-edit"></span></a>
-                    <a href="{% url 'post_draft_list' %}" class="icon" >&nbsp Drafts</a>
+                    <a href="{% url 'post_draft_list' %}" class="icon" >Drafts</a>
 
                     <a href="{% url 'logout' %}" class="top-menu"><span class="glyphicon glyphicon-log-out"></span></a>
-                    <a href="{% url 'logout' %}" class="icon" >&nbsp Log Out</a>
+                    <a href="{% url 'logout' %}" class="icon" >Log Out</a>
 
                     <p class="top-menu">Hello, {{ user.username }}!</p>
 
