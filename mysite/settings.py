@@ -25,7 +25,7 @@ SECRET_KEY = 'kz8r(fh5c=yv%(w32(_7ae6qpsalf5k)upl3y3gx*_6@n_793$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'ruxiiiiii.pythonanywhere.com']
 
 
 # Application definition
@@ -126,5 +126,5 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 
-ALLOWED_HOSTS = ['127.0.0.1', 'ruxiiiiii.pythonanywhere.com']
+MEDIA_URL = '/media/'
 
